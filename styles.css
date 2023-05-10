@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.imgbanner {
+   
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/bmw-x-series-x1-sp-desktop.jpg");
+    background-size: cover;
+}
+nav {
+    width: 100vw;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav ::after {
+    width: 100px;
+    height: 8px;
+    background-color: orangered;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    content: "";
+    top: 10%;
+}
+.nav--anchors {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.nav--icons {
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+  }
+
+  .logo {
+    width: 70px;
+  }
