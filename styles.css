@@ -15,21 +15,13 @@ nav {
     width: 100vw;
     height:10vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }
-.nav ::after {
-    width: 100px;
-    height: 8px;
-    background-color: orangered;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    content: "";
-    top: 10%;
-}
+
 .nav--anchors {
+    font-size: 20px;
     color: white;
     display: flex;
     justify-content: flex-start;
@@ -43,11 +35,35 @@ nav {
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
   }
 
   .logo {
-    width: 70px;
+    height: 60px;
+
   }
+
+  .home-content{
+    position: absolute;
+    bottom: 100px;
+    display: grid;
+    justify-content: space-around;
+  }
+
+  .home-content h1{
+    font-size: 30px;
+    color: white;
+  }
+  .home-content h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 8px;
+  }
+  .button {
+    width: 200px;
+    background-color: blue;
+    color: white;
+  }
+
