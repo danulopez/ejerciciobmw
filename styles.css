@@ -29,15 +29,19 @@ nav {
   top: 14%;
 }
 
-.nav--anchors {
+.nav_anchors {
   font-size: 20px;
   color: white;
   display: flex;
   justify-content: flex-start;
   gap: 30px;
 }
+.li_anchors:hover{
+  font-size: 25px;
+  color: orangered;
+  }
 
-.nav--icons {
+.nav_icons {
   display: flex;
   justify-content:space-between;
   gap: 30px;
@@ -47,13 +51,12 @@ nav {
   width: 30px;
   height: 30px;
   display: flex;
-  }
+}
 
 .logo--i {
   width: 50px;
   height: 60px;
   margin-bottom: 30px;
-
 }
 
 .texto_secundario{
@@ -78,6 +81,7 @@ nav {
   width: 200px;
   background-color: blue;
   color: white;
+  
 }
 
 .b_series {
@@ -102,20 +106,38 @@ nav {
   gap: 30px;
 }
 
+.textocoches_ul:hover{
+  font-size: 22px;
+  color:black;
+  font-style: bold;
+}
+
 .b_galeria {
-  width: 800vw;
+  width: 90vw;
+  display:flex;
+  align-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  flex-wrap: wrap;
 }
 
-.galeriadiv {
-  width: 200px;
-  height: 150px;
+.galeriacoches {
+  width: 300px;
+  height: 200px;
+  display: flex;
 }
 
-   .img_gal{
-    width: 200px;
-    height: 150px;  
-    object-fit: cover;
+.img_gal{
+  width: 100%;
+  height: 100%;  
+  object-fit: cover;
+}
 
+.descripcoche{
+  width: 100%;
+  height: 100%;  
+  justify-content:space-between;
 }
 
 
